@@ -1,0 +1,24 @@
+.appform {
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.appheader {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+textarea {
+    height: 50px;
+    width: 84%;
+    resize: none;
+}

@@ -1,0 +1,52 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#container {
+  width: 100%;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 400px;
+}
+
+.card b {
+  color: #333;
+}
+
+.courses {
+  list-style-type: none;
+  padding: 0;
+}
+
+.courses li {
+  margin: 2px 0 0 5px;
+}
+
+#cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(128, 128, 128, 0.432);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(128, 128, 128, 0.597);
+}
